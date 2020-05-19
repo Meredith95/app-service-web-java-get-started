@@ -22,7 +22,7 @@ steps:
 
 - task: AzureWebApp@1
   inputs:
-    azureSubscription: '538f89c0-007b-4f79-802d-f2c8db261929'
+    azureSubscription: 'meredith-service-connection'
     appType: webApp
     appName: 'meredith-pipeline-war'
     package: '$(System.DefaultWorkingDirectory)/**/*.war'
