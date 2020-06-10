@@ -34,7 +34,7 @@ steps:
     webAppName: 'meredith-pipeline-war'
     #specifySlotOrASE: false # Optional
     resourceGroupName: 'meredith-test'# Required when action == Swap Slots || Action == Delete Slot || SpecifySlot == True
-    sourceSlot: 'meredith-pipeline-war-test' # Required when action == Swap Slots
+    sourceSlot: 'test' # Required when action == Swap Slots
     swapWithProduction: true # Optional
     targetSlot: meredith-pipeline-war # Required when action == Swap Slots && SwapWithProduction == False
     #preserveVnet: false # Optional
